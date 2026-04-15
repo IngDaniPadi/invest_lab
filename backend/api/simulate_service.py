@@ -47,3 +47,7 @@ class SimulationService:
             "profit_percentage": round((profit / amount) * 100, 2),
             "history": history
         }
+
+
+# instancia global del servicio
+service = SimulationService()
